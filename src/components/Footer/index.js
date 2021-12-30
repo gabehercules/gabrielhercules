@@ -8,7 +8,7 @@ function Footer() {
 
     return (
         <S.FooterWrapper>
-            <p>© {getActualYear()}. Gabriel Hercules. Feito com <a href="https://nextjs.com" rel="nofollow" target="_blank">Next.js</a></p>
+            <p>© {getActualYear()}. Gabriel Hercules. Feito com <a href="https://nextjs.com" rel="nofollow noreferrer" target="_blank">Next.js</a></p>
         </S.FooterWrapper>
     )
 }
