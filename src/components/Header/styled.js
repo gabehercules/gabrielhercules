@@ -30,6 +30,11 @@ export const Logo = styled.div`
     }
 `
 
+export const BtnContacts = styled.div`
+    display: flex;
+    gap: 1rem;
+`
+
 export const Contact = styled.a`
     display: flex;
     justify-content: center;

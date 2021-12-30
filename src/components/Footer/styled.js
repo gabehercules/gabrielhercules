@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-    background-color: var(--background-light);
     display: flex;
+    flex: 1;
+    align-items: flex-end;
     padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
 
     p {
