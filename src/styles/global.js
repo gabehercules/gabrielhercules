@@ -61,7 +61,6 @@ const GlobalStyles = createGlobalStyle`
     --background: #0c0c0c;
     --background-light: #111;
     --background-dark: #000;
-    --background-hover: #111;
     --primary: #fff;
     --text: #fff;
     --text-dark: #bdbdbd;
