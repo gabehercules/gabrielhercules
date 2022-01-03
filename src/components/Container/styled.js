@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const ContainerWrapper = styled.div`
     display: flex;
@@ -12,4 +13,8 @@ export const ContainerCenter = styled.div`
     max-width: 1200px;
     display: flex;
     flex-direction: column;
+
+    ${media.lessThan("large")`
+        padding: 0 1rem;
+    `}
 `

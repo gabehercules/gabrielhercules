@@ -1,9 +1,15 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const TechStackWrapper = styled.div`
     display: flex;
     padding-top: 10vh;
     flex-wrap: wrap;
+
+    ${media.lessThan("small")`
+        padding-top: 7vh;
+        gap: 20px;
+    `}
 `
 
 export const TechStackItem = styled.div`
@@ -16,6 +22,10 @@ export const TechStackItem = styled.div`
         background-color: var(--border);
         vertical-align: middle;
         margin: 0 7px;
+
+        ${media.lessThan("small")`
+            display: none;
+        `}
     } 
 
     svg {

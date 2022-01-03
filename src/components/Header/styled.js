@@ -1,10 +1,18 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const HeaderWrapper = styled.header`
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 3vh 0;
+
+    ${media.lessThan("medium")`
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    `}
 `
 
 export const Logo = styled.div`
