@@ -1,4 +1,4 @@
-import { EmailTemplate } from '../../../components/EmailTemplate';
+// import { EmailTemplate } from '../../../components/EmailTemplate';
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
@@ -10,7 +10,7 @@ export async function GET() {
       from: 'contato@poraogeek.com.br',
       to: 'gabrielsyze@gmail.com',
       subject: 'Teste - Contato',
-      react: EmailTemplate({ firstName: 'Gabriel' }),
+      // react: EmailTemplate({ firstName: 'Gabriel' }),
     });
 
     return NextResponse.json(data);
