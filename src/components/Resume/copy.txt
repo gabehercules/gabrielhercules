@@ -1,0 +1,26 @@
+import Container from '../Container';
+
+export default function Resume() {
+  return (
+    <Container>
+      <h2>resumo</h2>
+      <p>
+        Minha jornada começa em 2016, quando cursei informatica na ETEC e
+        desenvolvi meu primeiro site com HTML e CSS, mas devido à escolhas
+        pessoais, não segui profissionalmente na área. Efetivamente foi em 2019,
+        quando passei a desenvolver profissionalmente meus primeiros sites em
+        HTML, CSS e JS em uma agência digital.
+      </p>
+      <p>
+        Desde então passei a atuar 100% na área web, e foi quando em 2020 abri
+        minha MEI para prestar meus serviços como PJ, prestando serviços para
+        diversas{' '}
+        <a href="#" className="underline">
+          agências da cidade
+        </a>
+        . Foi quando comecei adotei WordPress como ferramenta de
+        desenvolvimento. Em 2022 dei baixa no MEI e voltei à modalidade CLT.
+      </p>
+    </Container>
+  );
+}
