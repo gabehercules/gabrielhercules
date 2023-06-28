@@ -6,7 +6,7 @@ import Roadmap from '../components/Roadmap';
 
 export default function Page() {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col items-start h-screen">
       <Header />
       <Hero />
       <Resume />

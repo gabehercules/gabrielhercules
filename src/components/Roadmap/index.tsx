@@ -34,7 +34,7 @@ export default function Roadmap() {
             Planejado:
           </span>{' '}
           Página Sobre; Adicionar linha do tempo com experiências; Página
-          Contato com form; Adiconar versão inglês com i18n; Montar o schema no
+          Contato com form; Adicionar versão inglês com i18n; Montar o schema no
           CMS e fazer um fetch nos dados; Acessibilidade e keyboard navigation;
           e mais...
         </p>
