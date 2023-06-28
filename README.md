@@ -1,4 +1,4 @@
 ## Meu portfólio pessoal, feito com **React** e **Next.JS**
-**beta:** v0.1
+**release:** v1
 
 https://gabrielhercules.netlify.app
