@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import { me } from '../../data/me.js';
+import Logo from '../Logo';
 
 export default function Header() {
   return (
-    <div className="w-full flex gap-2 items-center justify-between py-3 border-b border-zinc-700">
-      <p>
-        <span className="text-xl font-extrabold">{me.personal.nickname}</span>
-      </p>
+    <div className="w-full flex gap-2 items-center justify-between py-6">
+      <div className="p-2 rounded-lg cursor-pointer hover:bg-white/10 transition-colors duration-300">
+        <Logo />
+      </div>
       <div className="flex gap-3">
         <Link href="mailto:gabrielsyze@gmail.com">
           <div>Contato</div>

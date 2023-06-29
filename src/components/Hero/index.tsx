@@ -3,8 +3,8 @@ import { me } from '../../data/me.js';
 
 export default function Hero() {
   return (
-    <div className="flex gap-10 py-10">
-      <div className="w-[300px]">
+    <div className="flex gap-10">
+      <div className="w-[220px]">
         <Image
           src={me.personal.photo}
           width={364}
@@ -35,16 +35,19 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex-1">
-        <h1 className="text-5xl font-bold mb-4">
-          Olá, meu nome é Gabriel Hercules e sou um Desenvolvedor em formação
+        <p className="text-md mb-3">
+          🤌 Olá, meu nome é Gabriel Hercules e sou um
+        </p>
+        <h1 className="text-5xl font-black mb-8">
+          Front End Dev, apaixonado por impactar pessoas
         </h1>
         <p className="text-xl">
           Estou no quarto semestre de Ciência da Computação e atualmente
           trabalho como Web Designer na{' '}
           <a
-            href="https://mgcholding.com.br/?ref=gabrielhercules.netlify.app"
+            href="https://mgcholding.com.br/?ref=gabeh.com.br"
             target="_blank"
-            className="text-blue-400 underline"
+            className="text-brand-green underline"
           >
             MGC Holding
           </a>
