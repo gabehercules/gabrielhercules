@@ -5,7 +5,7 @@ export default function Footer() {
   }
 
   return (
-    <div className="h-full flex gap-4 items-end py-4">
+    <div className="h-full max-w-[991px] m-auto flex gap-4 items-end py-4">
       <p className="text-sm text-white/70">
         © {getActualYear()}. Gabriel Hercules. Feito com{' '}
         <a href="https://nextjs.org" target="_blank" className="text-white">
