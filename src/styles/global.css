@@ -5,4 +5,27 @@
 body {
   color: #eeeeee;
   background-color: #101010;
+  background-image: url('/fundo-gradient.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #181818;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #222;
+    border: 0px solid #121212;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #444;
+  }
 }
